@@ -1,6 +1,7 @@
 #include <iostream>     // Bib für input und output laden
 #include <string>       // String Klasse laden
 
+using namespace std; // std namespace laden
 /*
 * Haupt Programm
 * Gibt int zurück
@@ -9,11 +10,11 @@
 */
 int main(int argc, char const *argv[])  // Hauptprogramm
 {
-   std::cout << "Hello World!\n";      // Konsolen Ausgabe
-   std::string name;                   // Variable deklarieren
-   std::cout << "Bitte Namen eingeben:" << std::endl; // Konsolen Ausgabe
-   std::cin >> name;                   // String von der Konsole in variable name speichern
-   std::cout << "Hallo " << name << std::endl;  // String name auf Konsole ausgeben
+   cout << "Hello World!\n" << endl;      // Konsolen Ausgabe
+   string name;                   // Variable deklarieren
+   cout << "Bitte Namen eingeben:" << endl; // Konsolen Ausgabe
+   cin >> name;                   // String von der Konsole in variable name speichern
+   cout << "Hallo " << name << endl;  // String name auf Konsole ausgeben
 
    return EXIT_SUCCESS;    // 0 zurückgeben --> Programm erfolgreich ausgeführt
 }
