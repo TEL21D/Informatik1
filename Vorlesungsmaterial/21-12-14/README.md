@@ -5,7 +5,7 @@
 Kontrollstrukturen
 - Bedinungen: if-else
 - Loops: while() and for ()
-- I/O: z.B. cin, cout
+- I/O: z.B. cin, cout, cerr
 
 Datentypen
 - int, bool
