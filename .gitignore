@@ -33,3 +33,6 @@
 
 # Local OS files
 .DS_Store
+
+
+*.plist
