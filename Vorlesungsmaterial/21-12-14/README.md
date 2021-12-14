@@ -23,6 +23,6 @@ Kontollstukturen und Co:
 - Intro Pointer
 
 Datentypen:
-- char (ASCII, Unicode)
+- char (ASCII, Unicode)  --> [ASCII Tabelle](https://www.asciitable.com)
 - Vector und **Arrays**
 - Enum
