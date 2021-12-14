@@ -13,7 +13,9 @@ int main(int argc, char const *argv[])
 
    cout << "sizeof(i_arr)" << sizeof(i_arr) << endl;
    cout << "sizeof(i_arr[0])" << sizeof(i_arr[0]) << endl;
-   cout << "sizeof(c_str)" << sizeof(c_str) << endl;
+   cout << "sizeof(c_str) " << sizeof(c_str) << endl;
+
+   cout << "laenge von c_str[]: " << sizeof(c_str)/sizeof(c_str[0]) << endl;
 
    for (int i = 0; i < sizeof(i_arr)/sizeof(i_arr[0]); i++)
    {
