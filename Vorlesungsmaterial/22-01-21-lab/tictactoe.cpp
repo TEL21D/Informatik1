@@ -10,14 +10,16 @@ bool gameover();
 // Eventuell Funktion um Reihen und Spalten zu checken
 void print_board();
 
+void insert_move();
+
 int main(int argc, char const *argv[])
 {
    // Datentypen
    // 2d Array/Vector
    std::vector<std::string> feld = {
-      "   ",
-      "   ",
-      "  $"
+      "123",
+      "345",
+      "789"
    };
 
    std::cout << "feld[0][0]-" << feld[0][0] << "-" << std::endl;
