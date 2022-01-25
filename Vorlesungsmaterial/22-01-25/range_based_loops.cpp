@@ -1,14 +1,13 @@
-#include<iostream>
-#include<vector>
-#include<string>
+#include <iostream>
+#include <vector>
+#include <string>
 
 int main(int argc, char const *argv[])
 {
    std::vector<std::string> vec1 = {
-      "Zeile1",
-      "Zeile2",
-      "Zeile3"
-   };
+       "Zeile1",
+       "Zeile2",
+       "Zeile3"};
 
    // Range basierte loops
    // auto vergibt automatisch den Typ
@@ -20,7 +19,8 @@ int main(int argc, char const *argv[])
       // .....
       // n-1: zeile = vec[n-1]
       std::cout << zeile << std::endl;
-      for (auto c : zeile){
+      for (auto c : zeile)
+      {
          std::cout << c << std::endl;
       }
    }
@@ -32,7 +32,6 @@ int main(int argc, char const *argv[])
    {
       std::cout << zeile << std::endl;
    }
-
 
    return 0;
 }
