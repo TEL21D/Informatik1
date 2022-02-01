@@ -30,6 +30,7 @@ struct s_kontakt
     void print() {
         cout <<  "Name: " << vorname << " " << name << "\nGeburtsjahr: " << geburtsjahr << "\n";
         addresse.print();
+        cout << endl;
     }
 };
 
@@ -76,5 +77,23 @@ int main(int argc, char const *argv[])
     student1.print();
     student2.print();
 
+
+    vector<s_kontakt> kontakte;
+
+    for (size_t i = 0; i < 3; i++)
+    {
+        s_kontakt tmp;
+        cout << "Bitte Namen Eingeben:\n";
+        cin >> tmp.name;
+        cout << "Geburtsjahr:\n";
+        cin >> tmp.geburtsjahr;
+
+        kontakte.push_back(tmp);
+    }
+
+
+    for(auto el: kontakte){
+        el.print();
+    }
     return 0;
 }
