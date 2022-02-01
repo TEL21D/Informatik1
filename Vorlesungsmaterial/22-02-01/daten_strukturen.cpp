@@ -1,5 +1,10 @@
 #include "../header.hpp"
 
+
+/*
+Anlegen einer eigenen Datenstruktur (struct)
+mit den bekannten Basis Datentypen (int, string, etc)
+*/
 struct s_addresse
 {
     int haus_nr;
@@ -11,6 +16,10 @@ struct s_addresse
     }
 };
 
+/*
+Anlegen einer Datenstruktur mit zuvor erstellten erweiterten Datenstrukturen (struct s_addresse)
+und den bekannten Basis Datentypen (int, string, etc)
+*/
 struct s_kontakt
 {
     string name;
@@ -28,11 +37,16 @@ struct s_kontakt
 
 int main(int argc, char const *argv[])
 {
+    // Initialisieren von structs
+    // Variante 1
     s_addresse addresse;
     addresse.haus_nr = 6;
     addresse.plz = 69167;
     addresse.strasse = "Coblitzallee";
 
+    // Initialisieren von structs
+    // Variante 2
+    // Ähnlich wie bei Vectoren { .... , ... , ...}
     s_addresse addresse2 = {
         10,
         "A3",
