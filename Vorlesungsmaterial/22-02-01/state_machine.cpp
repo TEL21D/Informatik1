@@ -6,8 +6,8 @@
 // da man auf sie über den namen des enums zugreifen muss
 // z.B. zustand::init
 enum struct zustand {
-    init,
-    frei,
+    init,   // = 0
+    frei,   // = 1
     besetzt,
     exit
 };
@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     // Zustandsautomat initialisieren
     zustand state = zustand::init;
     // Hilfsvariablen
-    int zaehler = 0;
+    int init_zaehler = 0;
     string in = "";
     int anzahl_autos = 0;
 
@@ -29,13 +29,14 @@ int main(int argc, char const *argv[])
         {
         case zustand::init:
             cout << "Initialisieren .... \n";
-            if (zaehler == 5) {
+            if (init_zaehler == 5) {
                 state = zustand::frei;
             }
-            zaehler++;
+            init_zaehler++;
             break;
         case zustand::frei:
             cout << "\nParkhaus ist frei... \n";
+            cout << anzahl_autos << " Autos im Parkhaus\n1 drückem zum reinfahren\n";
             cin >> in;
             if (in == "1")
             {
@@ -54,6 +55,7 @@ int main(int argc, char const *argv[])
             break;
         case zustand::besetzt:
             cout << "\nParkhaus ist besetzt... \n";
+            cout << anzahl_autos << " Autos im Parkhaus\n2 drückem zum rausfahren\n";
             cin >> in;
             if (in == "2")
             {
