@@ -43,10 +43,12 @@ int main(int argc, char const *argv[])
             }
             if (in == "e")
             {
+                // in Zustand exit wechseln wenn der Buchstabe "e" eingegeben wird
                 state = zustand::exit;
             }
             if (anzahl_autos >=  3)
             {
+                // nach zustand::besetzt wechseln wenn Variable anzahl_autos größer oder gleich 3
                 state = zustand::besetzt;
             }
             break;
