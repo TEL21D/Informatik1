@@ -31,3 +31,8 @@ Vorlesungsmaterial für Informatik1
 - Videos:
   - [minGW installieren](https://youtu.be/nHQ9DdLISqY)
   - [VsCode mit C++ konfigurieren](https://youtu.be/FysIjYNbhgw)
+
+## Übungsaufgaben
+- Repository mit Einführungsaufgaben zu C++ und zum Programmieren: https://github.com/TEL20A/Aufgaben-Cpp-Basics
+- Verschiedene Mathematische Probleme auf Project Eule: https://projecteuler.net/
+- [Hackerrank](https://www.hackerrank.com/) bietet unterschiedliche, interaktive Aufgabenstellungen. Es ist aber eine kostenlose Registrierung notwendig.
