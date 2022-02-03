@@ -2,6 +2,9 @@
 Vorlesungsmaterial für Informatik1
 
 
+## Loesungen zu den Laboren
+- [Tic-Tac-Toe Loesungs Code](https://github.com/TEL21D/TicTacToe/tree/loesung)
+
 ## Nützliche Online Information
 
 - [hackingcpp.com](https://hackingcpp.com/index.html): Gute Seite mit Infos zu C++ vom Anfänger bis Profi
