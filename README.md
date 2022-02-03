@@ -2,6 +2,9 @@
 Vorlesungsmaterial für Informatik1
 
 
+## Links zu den Laboren:
+- [Getränkeautomat](https://github.com/TEL21D/getraenke_automat)
+
 ## Loesungen zu den Laboren
 - [Tic-Tac-Toe Loesungs Code](https://github.com/TEL21D/TicTacToe/tree/loesung)
 
