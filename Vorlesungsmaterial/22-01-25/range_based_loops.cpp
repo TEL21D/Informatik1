@@ -32,6 +32,12 @@ int main(int argc, char const *argv[])
    {
       std::cout << zeile << std::endl;
    }
+   // den typ automatisch bestimmeb
+   for (auto zeile : vec1)
+   {
+      std::cout << zeile << std::endl;
+      std::cout << "Größe der Zeile: " << zeile.size() << std::endl;
+   }
 
    return 0;
 }
