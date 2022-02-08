@@ -28,11 +28,12 @@ int main(int argc, char const *argv[])
    std::cout << std::endl;
 
    // Manuell der Typ auf String setzen
+   // for (<Typ> Element :  vector, string, map, etc (Container Klassen))
    for (std::string zeile : vec1)
    {
       std::cout << zeile << std::endl;
    }
-   // den typ automatisch bestimmeb
+   // den typ automatisch bestimmt
    for (auto zeile : vec1)
    {
       std::cout << zeile << std::endl;
