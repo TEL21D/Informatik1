@@ -29,6 +29,27 @@ Vorlesungsmaterial für Informatik1
 - [C-Style Arrays](https://hackingcpp.com/cpp/lang/c_arrays.html)
 ### (Elementare) Datentypen
 - [Fundamentale Datentypen, ihre Größe und Anordnung im Speicher](https://hackingcpp.com/cpp/lang/fundamental_types.html)
+- [Vector](https://hackingcpp.com/cpp/std/vector_intro.html)
+- [String](https://hackingcpp.com/cpp/std/string_basics.html)
+
+### Weiteres
+- [Schleifen](https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Einführung_in_C%2B%2B/_Schleifen):
+  - for
+  - while
+- [Verzweigungen](https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Einführung_in_C%2B%2B/_Verzweigungen):
+  - if-else
+  - logische Operatoren (`&&`, `||`)
+  - Vergleichsoperatoren (`>`, `>`, `<=`, etc.)
+  - Bedingter Ausdruck bzw. Ternärer Operator `min = a < b ? a : b;`  
+- [switch-case](https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Einführung_in_C%2B%2B/_Auswahl)
+- [Ein- und Ausgabe](https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Einführung_in_C%2B%2B/_Einfache_Ein-_und_Ausgabe)
+  - cin
+  - cout   
+- [Funktionen](https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Weitere_Grundelemente/_Prozeduren_und_Funktionen):
+  - Paramter und Rückgabewert
+  - Referenzparamter
+  - Wertparameter   
+- Structs
 
 
 ## Infos zu VsCode und mingw compiler
