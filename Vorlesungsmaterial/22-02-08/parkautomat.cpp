@@ -33,7 +33,7 @@ int main(int argc, char const *argv[])
             {
                 not_valid = false;
                 std::cin >> in;
-                if ( in != 1 || in != 2) {
+                if ( in != 1 && in != 2) {
                     not_valid = true;
                     std::cout << "Bitte 1 oder 2 eingeben!\n";
                 }
