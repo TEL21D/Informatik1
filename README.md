@@ -15,6 +15,22 @@ Vorlesungsmaterial für Informatik1
 - [CodeCademy Cheat Sheet](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/cheatsheet)
 - [Wikibooks - Deutsch](https://de.wikibooks.org/wiki/C%2B%2B-Programmierung)
 
+
+## Übungsaufgaben
+- Repository mit Einführungsaufgaben zu C++ und zum Programmieren: https://github.com/TEL20A/Aufgaben-Cpp-Basics
+- Verschiedene Mathematische Probleme auf Project Eule: https://projecteuler.net/
+- [Hackerrank](https://www.hackerrank.com/) bietet unterschiedliche, interaktive Aufgabenstellungen. Es ist aber eine kostenlose Registrierung notwendig.
+
+
+## Weitere Erklärungen
+
+### Pointer
+- [Pointer Arithmetik](https://hackingcpp.com/cpp/lang/pointer_arithmetic.html)
+- [C-Style Arrays](https://hackingcpp.com/cpp/lang/c_arrays.html)
+### (Elementare) Datentypen
+- [Fundamentale Datentypen, ihre Größe und Anordnung im Speicher](https://hackingcpp.com/cpp/lang/fundamental_types.html)
+
+
 ## Infos zu VsCode und mingw compiler
 
 - Detailliertere Infos folgen mit Beispiel setup
@@ -38,8 +54,3 @@ Vorlesungsmaterial für Informatik1
 - Videos:
   - [minGW installieren](https://youtu.be/nHQ9DdLISqY)
   - [VsCode mit C++ konfigurieren](https://youtu.be/FysIjYNbhgw)
-
-## Übungsaufgaben
-- Repository mit Einführungsaufgaben zu C++ und zum Programmieren: https://github.com/TEL20A/Aufgaben-Cpp-Basics
-- Verschiedene Mathematische Probleme auf Project Eule: https://projecteuler.net/
-- [Hackerrank](https://www.hackerrank.com/) bietet unterschiedliche, interaktive Aufgabenstellungen. Es ist aber eine kostenlose Registrierung notwendig.
