@@ -28,12 +28,26 @@ bool prim(int n);
 
 int main() {
 
-  cout << summe_bis(5) << endl; // Soll 1+2+3+4+5 == 15 ausgeben.
+//   cout << summe_bis(5) << endl; // Soll 1+2+3+4+5 == 15 ausgeben.
   cout << summe_von_bis(3, 5) << endl; // Soll 3+4+5 == 12 ausgeben.
   cout << geteilt(17, 4) << endl; // Soll 4 ausgeben.
   cout << rest(17, 4) << endl; // Soll 1 ausgeben.
-  cout << teilbar(17, 4) << endl; // Soll 0 ausgeben.
-  cout << ggT(60,24) << endl; // Soll 12 ausgeben.
-  cout << anzahl_teiler(12,10) << endl; // Soll 5 ausgeben.
-  cout << prim(4) << endl; // Soll 0 ausgeben.
+//   cout << teilbar(17, 4) << endl; // Soll 0 ausgeben.
+//   cout << ggT(60,24) << endl; // Soll 12 ausgeben.
+//   cout << anzahl_teiler(12,10) << endl; // Soll 5 ausgeben.
+//   cout << prim(4) << endl; // Soll 0 ausgeben.
+}
+
+
+int summe_von_bis(int n1, int n2) {
+    if (n1 == n2) return n1;
+    return summe_von_bis(n1, n2-1) + n2;
+}
+
+int geteilt(int n, int k) {
+    return n < k ? 0 : geteilt(n-k, k) +1;
+}
+
+int rest(int n, int k) {
+    return n < k ? n : rest(n-k, k);
 }
