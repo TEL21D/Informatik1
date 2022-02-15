@@ -48,7 +48,9 @@ Vorlesungsmaterial für Informatik1
 - [Funktionen](https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Weitere_Grundelemente/_Prozeduren_und_Funktionen):
   - Paramter und Rückgabewert
   - Referenzparamter
-  - Wertparameter   
+  - Wertparameter
+  - (Scope): Gültigkeit von Variablen
+  - Lokale vs. globale   
 - Structs
 - Rekursion
 
