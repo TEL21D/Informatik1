@@ -50,6 +50,7 @@ Vorlesungsmaterial für Informatik1
   - Referenzparamter
   - Wertparameter   
 - Structs
+- Rekursion
 
 
 ## Infos zu VsCode und mingw compiler
