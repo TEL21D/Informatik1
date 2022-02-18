@@ -8,6 +8,7 @@ Vorlesungsmaterial für Informatik1
 
 ## Loesungen zu den Laboren
 - [Tic-Tac-Toe Loesungs Code](https://github.com/TEL21D/TicTacToe/tree/loesung)
+- [**Lösungvorschlag Getränkeautomat**](https://github.com/TEL21D/getraenke_automat/tree/loesung_2)
 
 ## Nützliche Online Information
 
