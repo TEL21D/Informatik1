@@ -21,12 +21,12 @@ int rest(int n, int k)
     if(n < k) {
         return n;
     }
-    
+
     return rest(n-k,k);
-    
+
     /* Oder als einzeiler
     * return n < k ? n : rest(n-k,k);
-    *
+    */
 }
 
 bool teilbar(int n, int k)
