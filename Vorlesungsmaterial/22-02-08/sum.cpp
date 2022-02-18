@@ -14,7 +14,9 @@ int main(int argc, char const *argv[])
 }
 
 int sum_bis_n(int n) {
+    // Basisfall
     if(n==1) return 1;
+    // Rekursionsschritt
     return sum_bis_n(n-1) + n;
 }
 int sum(std::vector<int> &vec, int n) {
