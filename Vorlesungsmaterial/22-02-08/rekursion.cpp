@@ -18,7 +18,15 @@ int main(int argc, char const *argv[])
 
 int rest(int n, int k)
 {
-  return n < k ? n : rest(n-k,k);
+    if(n < k) {
+        return n;
+    }
+    
+    return rest(n-k,k);
+    
+    /* Oder als einzeiler
+    * return n < k ? n : rest(n-k,k);
+    *
 }
 
 bool teilbar(int n, int k)
@@ -27,13 +35,22 @@ bool teilbar(int n, int k)
 }
 
 int fib(int n) {
+    /* Basisfall 1
+    * Anfang der Rekursion, vergleichbar mit Schleifenabbruch
+    */
     if (n == 0) {
         return 0;
     }
+    /* Basisfall 2
+    * Anfang der Rekursion, vergleichbar mit Schleifenabbruch
+    */
     if (n < 2)
     {
         return 1;
     }
-
+    /* Rekursionsschritt(e)
+    * Die Funktion ruft sich selber wieder auf bis einer der Basisfälle erreicht ist
+    * Vergleich mit dem Schleifenrumpf einer while Schleife
+    */
     return fib(n-2) + fib(n-1);
 }
