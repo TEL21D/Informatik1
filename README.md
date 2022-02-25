@@ -9,6 +9,7 @@ Vorlesungsmaterial für Informatik1
 ## Loesungen zu den Laboren
 - [Tic-Tac-Toe Loesungs Code](https://github.com/TEL21D/TicTacToe/tree/loesung)
 - [**Lösungvorschlag Getränkeautomat**](https://github.com/TEL21D/getraenke_automat/tree/loesung_2)
+- [Lösungsvorschlag zu der Zahlenrekursion](https://github.com/TEL21D/Informatik1/blob/main/Vorlesungsmaterial/22-02-15/Loesung/rekursion_zahlen.cpp)
 
 ## Nützliche Online Information
 
@@ -41,17 +42,17 @@ Vorlesungsmaterial für Informatik1
   - if-else
   - logische Operatoren (`&&`, `||`)
   - Vergleichsoperatoren (`>`, `>`, `<=`, etc.)
-  - Bedingter Ausdruck bzw. Ternärer Operator `min = a < b ? a : b;`  
+  - Bedingter Ausdruck bzw. Ternärer Operator `min = a < b ? a : b;`
 - [switch-case](https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Einführung_in_C%2B%2B/_Auswahl)
 - [Ein- und Ausgabe](https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Einführung_in_C%2B%2B/_Einfache_Ein-_und_Ausgabe)
   - cin
-  - cout   
+  - cout
 - [Funktionen](https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Weitere_Grundelemente/_Prozeduren_und_Funktionen):
   - Paramter und Rückgabewert
   - Referenzparamter
   - Wertparameter
   - (Scope): Gültigkeit von Variablen
-  - Lokale vs. globale   
+  - Lokale vs. globale
 - Structs
 - Rekursion
 
