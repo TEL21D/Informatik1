@@ -9,21 +9,22 @@
   String s und einen Buchstaben c erwartet.
   Die Funktion soll jedes zweite Vorkommen von c in s löschen und das
   Ergebnis zurückliefern.
-  
+
   D.h. das erste Vorkommen von c soll erhalten bleiben, das zweite
   gelöscht werden, das dritte erhalten etc.
 ***/
 string loeschen(string s, char c);
+string loeschen_mit_erase(string s, char c);
 
 /*** TESTCODE/MAIN: ***/
 int main()
 {
     /// TESTFALL: Soll "abcd" ausgeben.
     cout << loeschen("abcbd", 'b') << endl;
-    
+
     /// TESTFALL: Soll "abcdbae" ausgeben.
     cout << loeschen("abcbdbabe", 'b') << endl;
-    
+
     return 0;
 }
 
@@ -43,4 +44,21 @@ string loeschen(string s, char c)
 		}
 	}
 	return ergebnis;
+}
+
+
+string loeschen_mit_erase(string s, char c) {
+    int zaehler = 0;
+    for (int i=0; i < s.size(); i++)
+    {
+        if (s[i] == c)
+        {
+            zaehler++;
+            if(zaehler % 2 == 0) {
+                s.erase(i, 1);
+                i--;
+            }
+        }
+    }
+    return s;
 }
