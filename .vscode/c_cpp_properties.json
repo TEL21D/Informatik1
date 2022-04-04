@@ -11,7 +11,8 @@
             ],
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c17",
-            "intelliSenseMode": "macos-clang-x64"
+            "intelliSenseMode": "macos-clang-x64",
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
